@@ -1,13 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(33, 36, 40);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* navbar */
+
+.container11{
+  width: 100%;
+  height: 17vh;
+  background-color: aliceblue;
+}
+.icons_btn{
+  width: 160%;
+  }
+
+  .nav_img_logo{
+    display: none;
+  }
+
+
+
+
+ /* header */
+
+ header{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(33, 36, 40);
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+
+ /* skills */
+
+
+ .skills{
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(33, 36, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .my_skills{
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(33, 36, 40);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+ }
+ .div_skills{
+  width: 90%;
+  height: 30vh;
+  background-color: #3e403a;
+  border-radius: 15px;
+  box-shadow:2px 5px 10px 5px #67a35b;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+ }
+ .div_skills:hover{
+  background-color: rgb(43, 42, 42);
+ }
+
+
+
+ /* My Projects */
+
+ .My_Projects{
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(33, 36, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .text_co{
+  color: rgb(255, 1, 79);
+ }
+
+
+
+ /* project */
+
+ .projects{
+  width: 100%;
+  height: 90vh;
+  background-color:  rgb(33, 36, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .bg_project-div{
+  width: 90%;
+  height: 80vh;
+  background-color:rgb(41, 44, 48);
+  border-radius: 10px;
+  box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+ }
+ .project_div-image{
+  height: 216px;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+ .bg_project-div:hover{
+  background-color:rgb(23, 26, 31);
+ }
+ .sm_project-div{
+  width: 73%;
+  height: 65vh;
+  /* background-color: aliceblue; */
+
+ }
+ .socal_media-icons1{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  cursor: pointer;
+ }
+ .socal_media-icons1:hover{
+  color:rgb(255, 1, 79);
+ }
+
+
+
+ /* my resume */
+
+ 
+ .My_resume{
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(33, 36, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+
+
+ /* contact */
+
+ .contact_bg-box{
+  width: 100%;
+  height: 130vh;
+  background-color: rgb(33, 36, 40);
+  box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .contact_sm-box{
+  width: 82%;
+  height: 120vh;
+  /* background-color: #67a35b; */
+ }
+
+ .contact-insta_icons{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(22, 26, 27);
+  box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact-insta_icons:hover{
+  margin-bottom: 10px;
+  color: rgb(255, 1, 79);
+ }
+
+
+
+ /* responce */
+
+
+ @media only screen and (max-width: 600px){
+  .nav_img_logo{
+    display: block;
+  }
+
+  /* .skills */
+
+  .my_skills{
+    height: auto;
+   }
+   .skills{
+    height: auto;
+   }
+   .div_skills{
+    margin-top: 50px;
+   }
+   
+ .My_Projects{
+  height: 25vh;
+ }
+
+ .projects{
+  width: 100%;
+  height: auto;
+  /* background-color:  rgb(69, 77, 88); */
+
+ }
+ .bg_project-div{
+  width: 90%;
+  height: auto;
+  margin-top: 50px;
+  /* background-color:rgb(50, 167, 60); */
+
+  
+ }
+ .sm_project-div{
+  width: 76%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  /* background-color: rgb(42, 115, 179); */
+
+ }
+ .My_resume{
+  width: 100%;
+  height: 40vh;
+ }
+ 
+ .contact_bg-box{
+  height: 100vh;
+ }
+ .contact_sm-box{
+  height: auto;
+ }
 }

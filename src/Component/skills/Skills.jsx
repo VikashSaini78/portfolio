@@ -20,7 +20,8 @@ function Skills() {
             textAlign:'center',
             marginBottom:'50px',
             color:'white',
-            fontWeight:'bold'
+            fontWeight:'bold',
+            marginTop:'7px'
         }}>MY Skills</Typography>
         </div>
 

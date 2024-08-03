@@ -9,7 +9,7 @@ function Projects() {
 
         <div className="My_Projects">
         <div> 
-        <Typography className="text_co">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</Typography>
+        <Typography className="text_co-visit">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</Typography>
         <Typography variant="h2" sx={{
           color: 'white',
           textAlign:'center',

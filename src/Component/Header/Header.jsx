@@ -26,8 +26,8 @@ function Header() {
                  <div className="col-md-6">
 
                  <div
-                 data-aos='fade-up-right'
-                 data-aos-duration='1000'
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'
                  >
                  <Box sx={{
                 width:'100%',
@@ -60,8 +60,8 @@ function Header() {
                  </div>
 
                  <div className="col-md-6"
-                  data-aos='fade-up-left'
-                 data-aos-duration='1000'
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'
                  >
                  <Box sx={{
                 width:'100%',

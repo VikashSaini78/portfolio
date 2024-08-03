@@ -132,7 +132,7 @@ function Projects() {
                   <div className="sm_project-div">
                   
                   <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Todo" target="_blank" rel="noopener noreferrer">
-                  <img className="project_div-image" src="./media/portfolio_img1.png" alt="error"/>
+                  <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
               </Link>
 
                  <div className=" flex justify-between items-center">
@@ -165,7 +165,7 @@ function Projects() {
                   <div className="sm_project-div">
                   
                   <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <img className="project_div-image" src="./media/portfolio_img2.jpg" alt="error"/>
+                  <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
                  <Typography className="mt-3 text_co">Backend Projects</Typography>
@@ -194,7 +194,7 @@ function Projects() {
                   <div className="sm_project-div">
                   
                   <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Weather/app" target="_blank" rel="noopener noreferrer">
-                  <img className="project_div-image" src="./media/portfolio_img3.jpg" alt="error"/>
+                  <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
                  <Typography className="mt-3 text_co">Weather application</Typography>

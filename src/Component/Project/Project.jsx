@@ -29,16 +29,27 @@ function Projects() {
                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
+                  
+                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
+              </Link>
+
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Footwear Fusion</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <div className="socal_media-icons1"><FaGithub/></div>
+ 
+            <Link className=" text-white"  href="https://github.com/VikashSaini78/Dev-Projects" target="_blank" rel="noopener noreferrer">
+            <div className="socal_media-icons1"><FaGithub/></div>
+          </Link>
+
+                <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
+
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 Experience the perfect blend of style and performance with our men's Nike Road Running Shoes. These sleek and stylish kicks !
                  </Typography>
 
                   </div>
@@ -51,16 +62,24 @@ function Projects() {
                       data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
+                  
+                  <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
+                 </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Sole Adventure</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <div className="socal_media-icons1"><FaGithub/></div>
+
+                 <Link className=" text-white"  href="https://github.com/VikashSaini78/redux_project" target="_blank" rel="noopener noreferrer">
+                <div className="socal_media-icons1"><FaGithub/></div>
+               </Link>
+               <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 Highlight the importance of t-shirts and shirts as wardrobe staples. The exclamation mark adds enthusiasm Play on the concept !
                  </Typography>
 
                   </div>
@@ -72,16 +91,25 @@ function Projects() {
                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
+                  
+                  <Link className=" text-white"  href="https://crm.technoderivation.com/shiv/index.php" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
+                 </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Gourmet Food Delivered</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <div className="socal_media-icons1"><FaGithub/></div>
+                 
+            <Link className=" text-white"  href="https://github.com/VikashSaini78/Office_Work" target="_blank" rel="noopener noreferrer">
+            <div className="socal_media-icons1"><FaGithub/></div>
+          </Link>
+
+          <Link className=" text-white"  href="https://crm.technoderivation.com/shiv/index.php" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 Explore our great selection of delicious dishes, including artisanal cheeses. We've rounded up the finest ingredients for your culinary adventures.!
                  </Typography>
 
                   </div>
@@ -102,16 +130,27 @@ function Projects() {
                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
-                  <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
+                  
+                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Todo" target="_blank" rel="noopener noreferrer">
+                  <img className="project_div-image" src="./media/portfolio_img1.png" alt="error"/>
+              </Link>
+
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Todo Application</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <Link className=" text-white" top={''}><div className="socal_media-icons1"><FaGithub/></div></Link>
-                 <Link className=" text-white" top={''}> <div className="socal_media-icons1"><BsBrowserChrome/></div></Link>
+ 
+            <Link className=" text-white"  href="https://github.com/VikashSaini78/Dev-Projects" target="_blank" rel="noopener noreferrer">
+            <div className="socal_media-icons1"><FaGithub/></div>
+          </Link>
+
+                <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Todo" target="_blank" rel="noopener noreferrer"> 
+                <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
+
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 TaskMaster is your favorite to-do application for efficient task management. Designed to have a minimal and user-friendly interface. !
                  </Typography>
 
                   </div>
@@ -121,19 +160,27 @@ function Projects() {
 
                      <div className="col-md-4">
                      <div className="bg_project-div"
-                     data-aos='zoom-in'
+                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
-                  <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
+                  
+                  <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <img className="project_div-image" src="./media/portfolio_img2.jpg" alt="error"/>
+                 </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Backend Projects</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <div className="socal_media-icons1"><FaGithub/></div>
+
+                 <Link className=" text-white"  href="https://github.com/VikashSaini78/redux_project" target="_blank" rel="noopener noreferrer">
+                <div className="socal_media-icons1"><FaGithub/></div>
+               </Link>
+               <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 Highlight the importance of t-shirts and shirts as wardrobe staples. The exclamation mark adds enthusiasm Play on the concept !
                  </Typography>
 
                   </div>
@@ -145,16 +192,25 @@ function Projects() {
                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
-                  <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
+                  
+                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Weather/app" target="_blank" rel="noopener noreferrer">
+                  <img className="project_div-image" src="./media/portfolio_img3.jpg" alt="error"/>
+                 </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">SOCIAL MEDIA CLONE</Typography>
+                 <Typography className="mt-3 text_co">Weather application</Typography>
                  <div className="gap-2 text-xl flex text-white">
-                 <div className="socal_media-icons1"><FaGithub/></div>
+                 
+            <Link className=" text-white"  href="https://github.com/VikashSaini78/Office_Work" target="_blank" rel="noopener noreferrer">
+            <div className="socal_media-icons1"><FaGithub/></div>
+          </Link>
+
+          <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Weather/app" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
+              </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                 Weatherwise is your all-in-one weather companion. Whether you are planning a weekend getaway or heading out to buy groceries,.!
                  </Typography>
 
                   </div>

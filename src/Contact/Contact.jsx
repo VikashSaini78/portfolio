@@ -30,17 +30,41 @@ function Contact() {
                <Typography className="mt-5 text-slate-400">Find me in</Typography>
 
                <div className="gap-2 text-xl flex text-white mt-4">
-                 <Link className=" text-white" top={''}><div className="contact-insta_icons">
-                 <FaFacebookF /></div></Link>
+            
 
-                 <Link className=" text-white" top={'https://www.instagram.com/'}><div className="contact-insta_icons">
-                 <FaInstagram /></div></Link>
 
-                <Link className=" text-white" top={'https://github.com/VikashSaini78'}> <div className="contact-insta_icons">
-                <FaGithub/></div></Link>
+                 {/* FaFacebookF */}
 
-                <Link className=" text-white" top={'https://www.linkedin.com/in/vikash-saini-a6448226b/'}>
-                <div className="contact-insta_icons"><FaLinkedin /></div></Link>
+                 <Link className=" text-white" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+               <div className="contact-insta_icons">
+                 <FaFacebookF />
+                 </div>
+             </Link>
+
+            {/* instagram */}
+
+
+                 <Link className=" text-white"  href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">
+            <div className="contact-insta_icons">
+              <FaInstagram />
+            </div>
+          </Link>
+       {/* GitHub */}
+          <Link className=" text-white"  href="https://github.com/VikashSaini78" target="_blank" rel="noopener noreferrer">
+            <div className="contact-insta_icons">
+              <FaGithub />
+            </div>
+          </Link>
+
+                
+          {/* LinkedIn */}
+
+          <Link className=" text-white"  href="https://www.linkedin.com/in/vikash-saini-a6448226b/" target="_blank" rel="noopener noreferrer">
+            <div className="contact-insta_icons">
+              <FaLinkedin />
+            </div>
+          </Link>
+
 
                  </div>
                </div>

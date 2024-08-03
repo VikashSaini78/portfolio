@@ -24,7 +24,7 @@ function App() {
           <Skills />
           <Projects />
           <Resume />
-          <Contact />
+          <Contact /> 
 
 
 
@@ -44,4 +44,3 @@ function App() {
 }
 
 export default App;
-

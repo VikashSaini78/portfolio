@@ -25,7 +25,9 @@ function Projects() {
                 <div className="container">
                   <div className="row">
                      <div className="col-md-4">
-                  <div className="bg_project-div">
+                  <div className="bg_project-div"
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
                  <div className=" flex justify-between items-center">
@@ -45,7 +47,9 @@ function Projects() {
                      </div>
 
                      <div className="col-md-4">
-                     <div className="bg_project-div">
+                     <div className="bg_project-div"
+                      data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
                  <div className=" flex justify-between items-center">
@@ -64,7 +68,9 @@ function Projects() {
                   </div>
                      </div>
                      <div className="col-md-4">
-                     <div className="bg_project-div">
+                     <div className="bg_project-div"
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
                  <div className=" flex justify-between items-center">
@@ -92,7 +98,9 @@ function Projects() {
                 <div className="container">
                   <div className="row">
                      <div className="col-md-4">
-                  <div className="bg_project-div">
+                  <div className="bg_project-div"
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
                  <div className=" flex justify-between items-center">
@@ -112,7 +120,9 @@ function Projects() {
                      </div>
 
                      <div className="col-md-4">
-                     <div className="bg_project-div">
+                     <div className="bg_project-div"
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
                  <div className=" flex justify-between items-center">
@@ -131,7 +141,9 @@ function Projects() {
                   </div>
                      </div>
                      <div className="col-md-4">
-                     <div className="bg_project-div">
+                     <div className="bg_project-div"
+                     data-aos='zoom-in'
+                     data-aos-duration='1000'>
                   <div className="sm_project-div">
                   <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
                  <div className=" flex justify-between items-center">

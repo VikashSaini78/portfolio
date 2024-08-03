@@ -1,6 +1,23 @@
 import { Box, Typography } from "@mui/material";
-
+import { useRef } from "react";
+import Typed from 'typed.js'
+import { useEffect } from "react";
 function Header() {
+  const typedRef = useRef(null);
+  useEffect(()=>{
+    const options = {
+      strings:['a Full Stack Developer.|','a UI Designer.|','a Professional Coder.|'],
+      typedSpeed:50,
+      backSpeed:70,
+      loop:true
+      
+    }
+    const typed = new Typed(typedRef.current,options)
+    return ()=>{
+      typed.destroy()
+    }
+
+  },[])
     return ( 
         <>
          <header className="header">
@@ -8,7 +25,11 @@ function Header() {
               <div className="row">
                  <div className="col-md-6">
 
-               <Box sx={{
+                 <div
+                 data-aos='fade-up-right'
+                 data-aos-duration='1000'
+                 >
+                 <Box sx={{
                 width:'100%',
                 height:'auto',
                 // backgroundColor:'yellow',
@@ -18,12 +39,14 @@ function Header() {
                WELCOME TO MY WORLD
                </h1>
                <Typography variant="h2" sx={{fontWeight:'bold', color:'white', marginTop:'20px'}}>
-               Hi, I'm <span className=" text-rose-700 ">Vikash Saini</span>
+               Hi, I'm <span className="text_co">Vikash Saini</span>
                </Typography>
 
 
                <Typography variant="h4" sx={{fontWeight:'bold', color:'white', marginTop:'20px'}}>
-                <span className=" text-rose-700"> a Full Stack Developer.|</span>
+               
+                <span ref={typedRef} className="text_co"></span>
+
                </Typography>
               
 
@@ -34,7 +57,12 @@ function Header() {
                </Box>
                  </div>
 
-                 <div className="col-md-6">
+                 </div>
+
+                 <div className="col-md-6"
+                  data-aos='fade-up-left'
+                 data-aos-duration='1000'
+                 >
                  <Box sx={{
                 width:'100%',
                 height:'auto',

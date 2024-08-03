@@ -61,7 +61,10 @@ function Navbar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-<div className='container11'>
+      <div className='container11'
+  // data-aos='fade-down'
+  // data-aos-duration='1000'
+  >
 <Box sx={{ display: 'flex'}}>
       <CssBaseline />
       <AppBar component="nav" sx={{

@@ -22,7 +22,10 @@ function Skills() {
             color:'white',
             fontWeight:'bold',
             marginTop:'7px'
-        }}>MY Skills</Typography>
+        }}
+        data-aos='fade-zoom-in'
+        data-aos-duration='1000'
+        >MY Skills</Typography>
         </div>
 
          {/* 1 */}
@@ -31,7 +34,10 @@ function Skills() {
         <div className="row">
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <FaHtml5 style={{
             fontSize:'100px',
@@ -43,7 +49,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <FaCss3 style={{
             fontSize:'100px',
@@ -55,7 +64,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <TbBrandJavascript style={{
             fontSize:'100px',
@@ -76,7 +88,10 @@ function Skills() {
         <div className="row">
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <TbBrandRedux style={{
             fontSize:'100px',
@@ -88,7 +103,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <FaReact  style={{
             fontSize:'100px',
@@ -100,7 +118,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <RiTailwindCssFill style={{
             fontSize:'100px',
@@ -122,7 +143,10 @@ function Skills() {
         <div className="row">
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+         data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <FaNode style={{
             fontSize:'100px',
@@ -134,7 +158,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <SiExpress style={{
             fontSize:'100px',
@@ -146,7 +173,10 @@ function Skills() {
         </div>
 
         <div className="col-md-4">
-        <div className="div_skills">
+        <div className="div_skills"
+        data-aos='flip-left'
+        data-aos-duration='1000'
+        >
         <div>
         <SiMongodb style={{
             fontSize:'100px',

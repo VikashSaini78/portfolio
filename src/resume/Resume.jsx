@@ -6,7 +6,9 @@ function Resume() {
   return (
     <>
       <div className="My_resume">
-        <div>
+        <div    
+        data-aos='fade-zoom-in'
+        data-aos-duration='1000'>
           <Typography className="text_co text-center">1+ YEARS OF EXPERIENCE</Typography>
           <Typography variant="h2" sx={{ color: 'white', textAlign: 'center', fontWeight: 'bold' }}>
             My Resume

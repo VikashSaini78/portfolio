@@ -44,7 +44,7 @@ function Contact() {
             {/* instagram */}
 
 
-                 <Link className=" text-white"  href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">
+                 <Link className=" text-white"  href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <div className="contact-insta_icons">
               <FaInstagram />
             </div>

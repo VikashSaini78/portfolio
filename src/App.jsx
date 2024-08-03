@@ -6,7 +6,6 @@ import Skills from "./Component/skills/Skills";
 import Contact from "./Contact/Contact";
 import Resume from "./resume/Resume";
 
-
 function App() {
   return ( 
     <>

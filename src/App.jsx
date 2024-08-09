@@ -1,4 +1,4 @@
-// import {BrowserRouter, Route, Routes} from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect } from "react";
 import Header from "./Component/Header/Header";
 import Navbar from "./Component/Navbar/Navbar";
@@ -8,6 +8,7 @@ import Contact from "./Contact/Contact";
 import Resume from "./resume/Resume";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Home from './Home/Home';
 
 function App() {
 
@@ -18,27 +19,18 @@ function App() {
 
   return ( 
     <>
-
-          <Navbar/>
-          <Header />
-          <Skills />
-          <Projects />
-          <Resume />
-          <Contact /> 
-
-
-
-{/* 
-    <BrowserRouter>
-      <Navbar/>
+    <Router>
+      <Navbar />
       <Routes>
-          <Route path="/" element={<Header />} />
-          <Route path="/skills" element={<Skills />} /> 
-          <Route path="/projects" element={<Projects />} /> 
-          <Route path="/resume" element={<Resume />} /> 
-          <Route path="/contact" element={<Contact />} />  
+      <Route path="/" element={<Home/>} />
+        <Route path="/Header" element={<Header />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter> */}
+    </Router>
+
     </>
    );
 }

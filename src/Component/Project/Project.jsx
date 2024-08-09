@@ -9,12 +9,15 @@ function Projects() {
 
         <div className="My_Projects">
         <div> 
+    
         <Typography className="text_co-visit">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</Typography>
         <Typography variant="h2" sx={{
           color: 'white',
           textAlign:'center',
            fontWeight:'bold',
         }}>My Projects</Typography>
+
+     
         </div>
           </div>
 
@@ -30,7 +33,7 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer">
+                  <Link top={'/projects'} className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
               </Link>
 

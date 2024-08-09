@@ -2,6 +2,10 @@ import { Box, Typography } from "@mui/material";
 import { useRef } from "react";
 import Typed from 'typed.js'
 import { useEffect } from "react";
+import Skills from "../skills/Skills";
+import Projects from "../Project/Project";
+import Resume from "../../resume/Resume";
+import Contact from "../../Contact/Contact";
 function Header() {
   const typedRef = useRef(null);
   useEffect(()=>{
@@ -76,7 +80,9 @@ function Header() {
 
               </div>
             </div>
+
          </header>
+                
         </>
      );
 }

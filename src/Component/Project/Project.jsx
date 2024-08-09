@@ -167,23 +167,23 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://plusone-blond.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">Backend Projects</Typography>
+                 <Typography className="mt-3 text_co">Plusone Projects</Typography>
                  <div className="gap-2 text-xl flex text-white">
 
                  <Link className=" text-white"  href="https://github.com/VikashSaini78/redux_project" target="_blank" rel="noopener noreferrer">
                 <div className="socal_media-icons1"><FaGithub/></div>
                </Link>
-               <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer"> 
+               <Link className=" text-white"  href="https://plusone-blond.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Highlight the importance of t-shirts and shirts as wardrobe staples. The exclamation mark adds enthusiasm Play on the concept !
+                 I affirm that the work presented in this project is a result of my own efforts and research, !
                  </Typography>
 
                   </div>

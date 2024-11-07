@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Link, Typography } from '@mui/material';
-import pdf from '../pdf/resume.pdf'; // Make sure to adjust the path to your actual resume PDF
+import pdf from '../pdf/vicky resume.pdf'; // Make sure to adjust the path to your actual resume PDF
 
 function Resume() {
   return (

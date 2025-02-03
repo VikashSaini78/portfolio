@@ -33,7 +33,7 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link top={'/projects'} className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer">
+                  <Link top={'/projects'} className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
               </Link>
 

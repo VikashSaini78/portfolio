@@ -33,32 +33,34 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link top={'/projects'} className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <Link top={'/projects'} className=" text-white"  href="https://invoices-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
               </Link>
 
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">Footwear Fusion</Typography>
+                 <Typography className="mt-3 text_co">Invoice E-ture </Typography>
                  <div className="gap-2 text-xl flex text-white">
  
             <Link className=" text-white"  href="https://github.com/VikashSaini78/Dev-Projects" target="_blank" rel="noopener noreferrer">
             <div className="socal_media-icons1"><FaGithub/></div>
           </Link>
 
-                <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/ShousHome" target="_blank" rel="noopener noreferrer"> 
+                <Link className=" text-white"  href="https://invoices-bice.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
 
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Experience the perfect blend of style and performance with our men's Nike Road Running Shoes. These sleek and stylish kicks !
-                 </Typography>
+                 Are you looking for the best wording for an invoice, encryption for an e-invoice, or something else? Happy to help! 
+                                  </Typography>
 
                   </div>
 
                   </div>
                      </div>
+
+                     {/* second project */}
 
                      <div className="col-md-4">
                      <div className="bg_project-div"
@@ -66,47 +68,51 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">Sole Adventure</Typography>
+                 <Typography className="mt-3 text_co">kotsuwa Industary</Typography>
                  <div className="gap-2 text-xl flex text-white">
 
                  <Link className=" text-white"  href="https://github.com/VikashSaini78/redux_project" target="_blank" rel="noopener noreferrer">
                 <div className="socal_media-icons1"><FaGithub/></div>
                </Link>
-               <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer"> 
+               <Link className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Highlight the importance of t-shirts and shirts as wardrobe staples. The exclamation mark adds enthusiasm Play on the concept !
+                 Kotsuwa Industry – stylish, durable, and eco-friendly. Shop our latest collections with seamless online ordering and fast delivery
                  </Typography>
 
                   </div>
 
                   </div>
                      </div>
+
+                     {/* 3 project */}
+
+
                      <div className="col-md-4">
                      <div className="bg_project-div"
                      data-aos='zoom-in'
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://crm.technoderivation.com/shiv/index.php" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img3.jpeg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">Gourmet Food Delivered</Typography>
+                 <Typography className="mt-3 text_co">Solse Store</Typography>
                  <div className="gap-2 text-xl flex text-white">
                  
-            <Link className=" text-white"  href="https://github.com/VikashSaini78/Office_Work" target="_blank" rel="noopener noreferrer">
+            <Link className=" text-white"  href="https://github.com/VikashSaini78" target="_blank" rel="noopener noreferrer">
             <div className="socal_media-icons1"><FaGithub/></div>
           </Link>
 
-          <Link className=" text-white"  href="https://crm.technoderivation.com/shiv/index.php" target="_blank" rel="noopener noreferrer"> 
+          <Link className=" text-white"  href="https://mern-project-ecqr.vercel.app" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
                  </div>
@@ -134,7 +140,7 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Todo" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Homepage" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
               </Link>
 

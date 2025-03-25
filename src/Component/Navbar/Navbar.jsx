@@ -71,7 +71,7 @@ function Navbar(props) {
           height: '17vh',
         }}>
           <Toolbar>
-            <img className='nav_img_logo' src='./media/vicky.jpg' alt='error' style={{
+            <img className='nav_img_logo' src='./media/vicky.jpg.' alt='error' style={{
               width: "80px",
               height: '80px',
               borderRadius: '100%',

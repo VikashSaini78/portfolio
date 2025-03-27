@@ -37,12 +37,14 @@ function Header() {
                 width:'100%',
                 height:'auto',
                 // backgroundColor:'yellow',
-                marginTop:'40px'
+                paddingTop:"80px"
+                // marginTop: "50px",
+                // marginbottom: "20px",
                }}>
                <h1 className=" text-white">
                WELCOME TO MY WORLD
                </h1>
-               <Typography variant="h2" sx={{fontWeight:'bold', color:'white', marginTop:'20px'}}>
+               <Typography variant="h2" sx={{fontWeight:'bold', color:'white', marginTop:'40px'}}>
                Hi, I'm <span className="text_co">Vikash Saini</span>
                </Typography>
 
@@ -71,9 +73,10 @@ function Header() {
                 width:'100%',
                 height:'auto',
                 // backgroundColor:'pink',
-                overflow:'hidden'
+                overflow:'hidden',
+                marginTop:"40px"
                }}>
-               <img className=" w-screen max-h-dvh " src="./media/image_bg.png" alt=""/>
+               <img className=" w-screen max-h-dvh  " src="./media/image_bg.png" alt=""/>
                </Box>
                   
                  </div>

@@ -21,7 +21,7 @@ function Skills() {
             marginBottom:'50px',
             color:'white',
             fontWeight:'bold',
-            marginTop:'7px'
+            
         }}
         data-aos='fade-zoom-in'
         data-aos-duration='1000'

@@ -68,7 +68,7 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://sekhavati.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img2.jpg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
@@ -78,7 +78,7 @@ function Projects() {
                  <Link className=" text-white"  href="https://github.com/VikashSaini78/redux_project" target="_blank" rel="noopener noreferrer">
                 <div className="socal_media-icons1"><FaGithub/></div>
                </Link>
-               <Link className=" text-white"  href="https://kotsuwaff-v8to.vercel.app/" target="_blank" rel="noopener noreferrer"> 
+               <Link className=" text-white"  href="https://sekhavati.vercel.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
                  </div>

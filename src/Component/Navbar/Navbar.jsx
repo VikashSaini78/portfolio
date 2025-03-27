@@ -37,7 +37,7 @@ function Navbar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2, ml:7 }}>
         {/* <img className='nav_img_logo' src='./media/logo-1.png' alt='error' style={{ */}
-        <img className='nav_img_logo' src='./media/myimg3.jpg' alt='error' style={{
+        <img className='nav_img_logo' src='./media/myimg2.png' alt='error' style={{
           width: "50px",
           height: '50px',
           margin:'5px',
@@ -73,7 +73,7 @@ function Navbar(props) {
           height: '17vh',
         }}>
           <Toolbar>
-            <img className='nav_img_logo' src='./media/myimg3.jpg' alt='error' style={{
+            <img className='nav_img_logo' src='./media/myimg2.png' alt='error' style={{
               width: "50px",
           height: '50px',
           margin:'5px',
@@ -93,7 +93,7 @@ function Navbar(props) {
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-              <img src='./media/myimg3.jpg' alt='error' style={{
+              <img src='./media/myimg2.png' alt='error' style={{
                  width: "50px",
           height: '50px',
           margin:'5px',

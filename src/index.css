@@ -38,8 +38,11 @@ code {
   }
 
   .nav_img_logo{
+    width: 100%;
     display: none;
+  
   }
+
 
 
 
@@ -190,7 +193,7 @@ code {
 
  .contact_bg-box{
   width: 100%;
-  height: 130vh;
+  height: 120vh;
   background-color: rgb(33, 36, 40);
   box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
   display: flex;
@@ -198,11 +201,25 @@ code {
   align-items: center;
 
  }
+
+ .contact_bg-box-input{
+  width: 100%;
+  height: 120vh;
+  background-color: rgb(33, 36, 40);
+  box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact_bg-box-input input:focus{
+   box-sizing: none;
+ }
  .contact_sm-box{
   width: 82%;
   height: 120vh;
   /* background-color: #67a35b; */
  }
+
 
  .contact-insta_icons{
   width: 70px;
@@ -287,10 +304,25 @@ color: rgb(255, 1, 79);
   height: 40vh;
  }
  
- /* .contact_bg-box{
-  height: 100vh;
- } */
- .contact_sm-box{
-  height: auto;
+ .contact_bg-box{
+  /* height: 100vh; */
+  margin-bottom: 35px;
  }
+ /* .contact_sm-box{
+  height: auto;
+ } */
+  .contact_sm-box-input{
+    width: 82%;
+    height: auto;
+    /* background-color: yellowgreen; */
+  }
+  .contact_bg-box-input{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(33, 36, 40);
+    box-shadow:2px 5px 10px 5px rgb(27, 29, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 }

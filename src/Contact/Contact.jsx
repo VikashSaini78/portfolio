@@ -74,8 +74,8 @@ function Contact() {
              </div>
 
           <div className="col-md-8">
-          <div className="contact_bg-box">
-          <div className="contact_sm-box">
+          <div className="contact_bg-box-input">
+          <div className="contact_sm-box-input">
 
           <div className="row">
           <div className="col">

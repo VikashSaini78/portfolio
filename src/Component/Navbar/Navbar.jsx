@@ -34,17 +34,17 @@ function Navbar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2, ml: 7 }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center"}}>
+      <Typography variant="h6" sx={{ my: 2, ml: 1 }}>
         {/* <img className='nav_img_logo' src='./media/logo-1.png' alt='error' style={{ */}
         <img
           className="nav_img_logo"
           src="./media/myimg2.png"
           alt="error"
           style={{
-            width: "35px",
-            height: "35px",
-            margin: "5px",
+            width: "50px",
+            height: "50px",
+            margin: "auto",
             borderRadius: "100%",
           }}
         />

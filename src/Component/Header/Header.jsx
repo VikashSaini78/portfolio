@@ -36,7 +36,7 @@ function Header() {
                  <Box sx={{
                 width:'100%',
                 height:'auto',
-                backgroundColor:'yellow',
+                // backgroundColor:'yellow',
                 paddingTop:"120px"
                 // marginTop: "50px",
                 // marginbottom: "20px",

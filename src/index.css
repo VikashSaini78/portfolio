@@ -80,10 +80,11 @@ code {
  }
  .div_skills{
   width: 90%;
-  height: 30vh;
+  height: 35vh;
   background-color: #3e403a;
   border-radius: 15px;
-  box-shadow:2px 5px 10px 5px #67a35b;
+  /* box-shadow:2px 5px 10px 5px #67a35b; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
   display: flex;
   justify-content: center;

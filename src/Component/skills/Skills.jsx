@@ -71,7 +71,8 @@ function Skills() {
         <div>
         <TbBrandJavascript style={{
             fontSize:'100px',
-           color:'#eff542'
+           color:'#eff542',
+             margin:'auto'
         }} />
         <Typography variant="h4">Javascript</Typography>
         </div>
@@ -125,7 +126,8 @@ function Skills() {
         <div>
         <RiTailwindCssFill style={{
             fontSize:'100px',
-           color:'#42b3f5'
+           color:'#42b3f5',
+            margin:'auto'
         }} />
         <Typography variant="h4">Tailwind css</Typography>
         </div>
@@ -180,7 +182,9 @@ function Skills() {
         <div>
         <SiMongodb style={{
             fontSize:'100px',
-           color:'#42f548'
+           color:'#42f548',
+            margin:'auto',
+          
         }} />
         <Typography variant="h4">Mongo DB</Typography>
         </div>

@@ -287,9 +287,9 @@ color: rgb(255, 1, 79);
   height: 40vh;
  }
  
- .contact_bg-box{
+ /* .contact_bg-box{
   height: 100vh;
- }
+ } */
  .contact_sm-box{
   height: auto;
  }

@@ -202,24 +202,24 @@ function Projects() {
                      data-aos-duration='1000'>
                   <div className="sm_project-div">
                   
-                  <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Weather/app" target="_blank" rel="noopener noreferrer">
+                  <Link className=" text-white"  href="https://67e4e6871f42958ed624635c--steady-meringue-e18a1f.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img className="project_div-image" src="./media/project_img1.jpeg" alt="error"/>
                  </Link>
                  <div className=" flex justify-between items-center">
-                 <Typography className="mt-3 text_co">Weather application</Typography>
+                 <Typography className="mt-3 text_co">Returnfiles web</Typography>
                  <div className="gap-2 text-xl flex text-white">
                  
             <Link className=" text-white"  href="https://github.com/VikashSaini78/Office_Work" target="_blank" rel="noopener noreferrer">
             <div className="socal_media-icons1"><FaGithub/></div>
           </Link>
 
-          <Link className=" text-white"  href="https://dev-projects-gray.vercel.app/Weather/app" target="_blank" rel="noopener noreferrer"> 
+          <Link className=" text-white"  href="https://67e4e6871f42958ed624635c--steady-meringue-e18a1f.netlify.app/" target="_blank" rel="noopener noreferrer"> 
                 <div className="socal_media-icons1"><BsBrowserChrome/></div>
               </Link>
                  </div>
                  </div>
                  <Typography className="mt-3 text-slate-100">
-                 Weatherwise is your all-in-one weather companion. Whether you are planning a weekend getaway or heading out to buy groceries,.!
+                 ReturnFiles is a fast and secure online platform for recovering lost or deleted files. Easily restore documents, images, simple!
                  </Typography>
 
                   </div>

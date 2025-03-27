@@ -15,6 +15,7 @@ function Projects() {
           color: 'white',
           textAlign:'center',
            fontWeight:'bold',
+
         }}>My Projects</Typography>
 
      

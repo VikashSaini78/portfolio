@@ -269,8 +269,8 @@ function Navbar(props) {
             justifyContent: "center",
             backgroundColor: "rgb(33, 36, 40)",
             height: { xs: "8vh", sm: "13vh" },
-            boxShadow: shadow ? "0px 4px 10px rgba(0, 0, 0, 0.1)" : "none", // Applying box-shadow when scrolled 20px
-            transition: "box-shadow 0.3s ease", // Smooth transition
+            boxShadow: shadow ? "0px 4px 10px rgba(0, 0, 0, 0.1)" : "none",
+            transition: "box-shadow 0.3s ease", 
           }}
         >
           <Toolbar>

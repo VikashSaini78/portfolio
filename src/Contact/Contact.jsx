@@ -29,7 +29,7 @@ function Contact() {
 
                <Typography className="mt-5 text-slate-400">Find me in</Typography>
 
-               <div className="gap-2 text-xl flex text-white mt-4 mb-4">
+               <div className="gap-2 text-xl flex text-white mt-4  ">
             
 
 

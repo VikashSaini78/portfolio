@@ -82,7 +82,8 @@ function Navbar(props) {
             display: "flex",
             justifyContent: "center",
             backgroundColor: "rgb(33, 36, 40)",
-            height: "11vh",
+            // height: "11vh",
+             height: { xs: "6vh", sm: "11vh" },
           }}
         >
           <Toolbar>

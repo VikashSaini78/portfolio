@@ -322,8 +322,9 @@ color: rgb(255, 1, 79);
  margin-bottom: 30px;
  }
  .contact_sm-box{
-  /* background: #000; */
-  height: 90vh;
+  /* background: #857a7a; */
+  height: auto;
+  /* height: 90vh; */
   margin-top: 30px;
   margin-bottom: 30px;
 

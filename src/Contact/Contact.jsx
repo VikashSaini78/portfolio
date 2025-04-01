@@ -18,16 +18,16 @@ function Contact() {
               
               <div className="contact_bg-box">
                <div className="contact_sm-box">
-               <img style={{height:'256px',borderRadius:"10px"}} src="./media/contact.png" alt="contact img"/>
-               <Typography sx={{fontWeight:'bold',color:'white', marginTop:'30px'}} variant="h4">Vikash Saini</Typography>
-               <Typography className="mt-3 text-slate-400">MERN Stack Developer</Typography>
-               <Typography className="mt-3 text-slate-400"> MERN Stack Developer is a skilled professional proficient in MongoDB, Express.js, React.js, and Node.js—the core technologies of the MERN stack.  🚀.</Typography>
+               <img style={{height:'170px',borderRadius:"10px"}} src="./media/contact.png" alt="contact img"/>
+               <Typography sx={{fontWeight:'bold',color:'white', marginTop:'20px'}} variant="h5">Vikash Saini</Typography>
+               <Typography  className="mt-2 text-slate-400">MERN Stack Developer</Typography>
+               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400"> MERN Stack Developer is a skilled professional proficient in MongoDB, Express.js, React.js, and Node.js—the core technologies of the MERN stack.  🚀.</Typography>
 
-               <Typography className="mt-4 text-slate-400">Phone: + 91-7878599144</Typography>
+               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400">Phone: + 91-7878599144</Typography>
 
-               <Typography className="mt-4 text-slate-400">Email : vikashbanskhoh@gmail.com</Typography>
+               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400">Email : vikashbanskhoh@gmail.com</Typography>
 
-               <Typography className="mt-5 text-slate-400">Find me in</Typography>
+               <Typography className="mt-2 text-slate-400">Find me in</Typography>
 
                <div className="gap-2 text-xl flex text-white mt-4  ">
             

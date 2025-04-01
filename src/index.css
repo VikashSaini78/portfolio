@@ -329,13 +329,13 @@ color: rgb(255, 1, 79);
 
   /* height: auto; */
  }
-  .contact_sm-box-input{
-    width: 82%;
-    height: 110vh;
-    margin: 0px;
-    margin-top: 10px;
-    /* background-color: yellowgreen; */
-  }
+ .contact_sm-box-input {
+  width: 82%;
+  /* height: 110vh; */
+  margin: 10px 0px 10px 0px;
+  /* margin-top: 10px; */
+  /* background-color: yellowgreen; */
+}
   .contact_bg-box-input{
     width: 100%;
     height: auto;

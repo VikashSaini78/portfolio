@@ -29,7 +29,7 @@ function Contact() {
 
                <Typography className="mt-5 text-slate-400">Find me in</Typography>
 
-               <div className="gap-2 text-xl flex text-white mt-4">
+               <div className="gap-2 text-xl flex text-white mt-4 mb-4">
             
 
 
@@ -86,19 +86,19 @@ function Contact() {
           </div>
           </div>
 
-          <input type="email" className="form-control mt-5" placeholder="Email id" id="inputEmail3"/>
+          <input type="email" className="form-control mt-3" placeholder="Email id" id="inputEmail3"/>
 
-          <input type="text" className="form-control mt-5" placeholder="Subject"/>
+          <input type="text" className="form-control mt-3" placeholder="Subject"/>
 
 
           <div className="form-floating ">
-         <textarea className="form-control mt-5" placeholder="Leave a comment here" id="floatingTextarea2" style={{
+         <textarea className="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style={{
             height: '220px',
          }} ></textarea>
         <label for="floatingTextarea2">Comments</label>
         </div>
 
-        <button type="button" class="btn btn-success form-control mt-5">Send Message</button>
+        <button type="button" class="btn btn-success form-control mt-3 mb-3">Send Message</button>
 
  
                   </div>

@@ -46,14 +46,14 @@ function Footer(){
                 <div className="row">
                 <div className="col-md-4">
                 <H5><strong>RESOURCES</strong></H5>
-               <Link className="text-slate-400 hover:text-red-400" to={''} >Home</Link> <br/><br/>
+               <Link className="text-slate-400 hover:text-red-400" to={''}>Home</Link> <br/><br/>
                 <Link className="text-slate-400 hover:text-red-400">About</Link>
                 {/* class="bg-sky-500 hover:bg-sky-700 */}
         </div>
                 <div className="col-md-4">
                 <H5><strong>FOLOOW US</strong></H5>
                 <Link className="text-slate-400 hover:text-red-400" to={"https://github.com/VikashSaini78"}>Github</Link><br/> <br/>
-                <Link className="text-slate-400 hover:text-red-400" to={"https://www.instagram.com/"}>Instagram</Link>
+                <Link className="text-slate-400 hover:text-red-400" to={"https://www.instagram.com/____vicky76__?igsh=MW1rNWs1Z3VtNm9meA%3D%3D"}>Instagram</Link>
                 
                
             </div>

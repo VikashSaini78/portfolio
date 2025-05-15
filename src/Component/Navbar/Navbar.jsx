@@ -223,14 +223,14 @@ function Navbar(props) {
         window.removeEventListener("scroll", handleScroll);
       };
     }
-  }, []);
+  })
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2, ml: 1 }}>
         <img
           className="nav_img_logo"
-          src="./media/myimg2.png"
+          src="./media/pcimage.jpg"
           alt="error"
           style={{
             width: "50px",
@@ -276,7 +276,7 @@ function Navbar(props) {
           <Toolbar>
             <img
               className="nav_img_logo"
-              src="./media/myimg2.png"
+              src="./media/pcimage.jpg"
               alt="error"
               style={{
                 width: "35px",
@@ -301,7 +301,7 @@ function Navbar(props) {
               sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
             >
               <img
-                src="./media/myimg2.png"
+                src="./media/pcimage.jpg"
                 alt="error"
                 style={{
                   width: "35px",

@@ -34,7 +34,8 @@ code {
   background-color: rgb(33, 36, 40);
 } */
 .icons_btn{
-  width: 160%;
+  width: 48%;
+  box-shadow: none;
   }
 
   .nav_img_logo{
@@ -57,6 +58,13 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+ }
+ .heder_image-my{
+  margin-top: 40px;
+  width: 70%;
+  height: 70vh;
+  border-radius: 50%;
+  object-fit: cover;
  }
 
 
@@ -184,7 +192,7 @@ code {
  
  .My_resume{
   width: 100%;
-  height: 70vh;
+  height: 40vh;
   background-color: rgb(33, 36, 40);
   display: flex;
   justify-content: center;
@@ -247,7 +255,7 @@ code {
   align-items: center;
  }
  .contact-insta_icons:hover{
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   color: rgb(255, 1, 79);
  }
 
@@ -264,10 +272,10 @@ code {
     height: 14vh;
     background-color: rgb(160, 181, 209);
   }
-  /* .container11{
-    height: 14vh;
-    background-color: rgb(32, 92, 172);
-  } */
+ .heder_image-my{
+  height: 30vh;
+  background-color: aliceblue;
+ }
 
   /* .skills */
 

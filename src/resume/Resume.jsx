@@ -15,7 +15,7 @@ function Resume() {
           </Typography>
           <Typography className="text-center">
             <Link top={'/resume'} href={pdf} download="Vikash Resume.pdf">
-              <Button  variant="contained" className="text-center mt-5 mb-5 ">Download Resume</Button>
+              <Button  variant="contained" className="text-center mt-5  ">Download Resume</Button>
             </Link>
           </Typography>
         </div>

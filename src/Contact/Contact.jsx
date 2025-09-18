@@ -1,114 +1,223 @@
-import { Box, Link, Typography } from "@mui/material";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+// import { Box, Link, Typography } from "@mui/material";
+// import { FaFacebookF } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+
+// import React from "react";
+
+// function Contact() {
+//   return (
+//     <div>
+//       <div
+//         className="min-h-screen flex items-center justify-center"
+//         style={{ backgroundColor: "rgb(33, 36, 40)" }}
+//       >
+//         <div className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl grid md:grid-cols-2">
+//           {/* Left Info Section */}
+//           <div className="bg-gray-900 text-white p-8 rounded-l-2xl flex flex-col justify-center">
+//             <h2 className="text-3xl font-bold mb-4">Vikash Saini</h2>
+//             <p className="text-gray-300 mb-6">
+//               MERN Stack Developer skilled in MongoDB, Express.js, React.js &
+//               Node.js
+//             </p>
+//             <p className="mb-2">📞 +91-7878599144</p>
+//             <p className="mb-6">✉ vikashbanskhoh@gmail.com</p>
+//             <div className="flex space-x-4">
+//               {/* FaFacebookF */}
+
+//               <Link
+//                 className=" text-white"
+//                 href="https://www.facebook.com/your-facebook-profile"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <div className="contact-insta_icons">
+//                   <FaFacebookF />
+//                 </div>
+//               </Link>
+
+//               {/* instagram */}
+
+//               <Link
+//                 top={"/contact"}
+//                 className=" text-white"
+//                 href="https://www.instagram.com/developer__vicky?igsh=aWFweGxtZ3ltcHdp"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <div className="contact-insta_icons">
+//                   <FaInstagram />
+//                 </div>
+//               </Link>
+//               {/* GitHub */}
+//               <Link
+//                 className=" text-white"
+//                 href="https://github.com/VikashSaini78"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <div className="contact-insta_icons">
+//                   <FaGithub />
+//                 </div>
+//               </Link>
+
+//               {/* LinkedIn */}
+
+//               <Link
+//                 className=" text-white"
+//                 href="https://www.linkedin.com/in/vikash-saini-a6448226b/"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <div className="contact-insta_icons">
+//                   <FaLinkedin />
+//                 </div>
+//               </Link>
+//               {/* <a href="#" className="hover:text-indigo-400">🌐</a>
+//         <a href="#" className="hover:text-indigo-400">💼</a>
+//         <a href="#" className="hover:text-indigo-400">📷</a> */}
+//             </div>
+//           </div>
+
+//           {/* Right Contact Form */}
+//           <form className="p-8 flex flex-col space-y-4">
+//             <input
+//               className="border p-3 rounded-lg"
+//               type="text"
+//               placeholder="Your Name"
+//             />
+//             <input
+//               className="border p-3 rounded-lg"
+//               type="email"
+//               placeholder="Your Email"
+//             />
+//             <input
+//               className="border p-3 rounded-lg"
+//               type="text"
+//               placeholder="Subject"
+//             />
+//             <textarea
+//               className="border p-3 rounded-lg"
+//               rows="4"
+//               placeholder="Your Message"
+//             ></textarea>
+//             <button className="bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition">
+//               Send Message
+//             </button>
+//           </form>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Contact;
+
+import React from "react";
+import { FaFacebookF, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
-    return (
-        <>
-          <Box sx={{
-            width:'100%',
-            height:'auto',
-            backgroundColor:'rgb(33, 36, 40)'
-          }}>
-            <div className="container">
-             <div className="row">
-             <div className="col-md-4">
-              
-              <div className="contact_bg-box">
-               <div className="contact_sm-box">
-               <img style={{height:'170px',borderRadius:"10px"}} src="./media/contact.png" alt="contact img"/>
-               <Typography sx={{fontWeight:'bold',color:'white', marginTop:'20px'}} variant="h5">Vikash Saini</Typography>
-               <Typography  className="mt-2 text-slate-400">MERN Stack Developer</Typography>
-               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400"> MERN Stack Developer is a skilled professional proficient in MongoDB, Express.js, React.js, and Node.js—the core technologies of the MERN stack.  🚀.</Typography>
-
-               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400">Phone: + 91-7878599144</Typography>
-
-               <Typography sx={{fontSize:"13px"}} className="mt-2 text-slate-400">Email : vikashbanskhoh@gmail.com</Typography>
-
-               <Typography className="mt-2 text-slate-400">Find me in</Typography>
-
-               <div className="gap-2 text-xl flex text-white mt-4  ">
-            
-
-
-                 {/* FaFacebookF */}
-
-                 <Link className=" text-white" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
-               <div className="contact-insta_icons">
-                 <FaFacebookF />
-                 </div>
-             </Link>
-
-            {/* instagram */}
-
-
-                 <Link top={'/contact'} className=" text-white"  href="https://www.instagram.com/____vicky76__?igsh=MW1rNWs1Z3VtNm9meA%3D%3D" target="_blank" rel="noopener noreferrer">
-            <div className="contact-insta_icons">
-              <FaInstagram />
-            </div>
-          </Link>
-       {/* GitHub */}
-          <Link className=" text-white"  href="https://github.com/VikashSaini78" target="_blank" rel="noopener noreferrer">
-            <div className="contact-insta_icons">
-              <FaGithub />
-            </div>
-          </Link>
-
-                
-          {/* LinkedIn */}
-
-          <Link className=" text-white"  href="https://www.linkedin.com/in/vikash-saini-a6448226b/" target="_blank" rel="noopener noreferrer">
-            <div className="contact-insta_icons">
-              <FaLinkedin />
-            </div>
-          </Link>
-
-
-                 </div>
-               </div>
-              
-              </div>
-
-             </div>
-
-          <div className="col-md-8">
-          <div className="contact_bg-box-input">
-          <div className="contact_sm-box-input">
-
-          <div className="row">
-          <div className="col">
-          <input type="text" className="form-control mt-4" placeholder="First name" aria-label="First name"/>
-          </div>
-          <div class="col">
-          <input type="Number" className="form-control mt-4" placeholder="Number" aria-label="Number"/>
-          </div>
-          </div>
-
-          <input type="email" className="form-control mt-3" placeholder="Email id" id="inputEmail3"/>
-
-          <input type="text" className="form-control mt-3" placeholder="Subject"/>
-
-
-          <div className="form-floating ">
-         <textarea className="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style={{
-            height: '220px',
-         }} ></textarea>
-        <label for="floatingTextarea2">Comments</label>
-        </div>
-
-        <button type="button" class="btn btn-success form-control mt-3 mb-3">Send Message</button>
-
- 
-                  </div>
+  return (
+    <div>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: "rgb(33, 36, 40)" }}
+      >
+        <div className="bg-white w-full max-w-4xl grid md:grid-cols-2  shadow-2xl">
+          {/* Left Info Section */}
+          <div
+            className="text-white p-8 flex flex-col justify-center "
+            style={{ backgroundColor: "rgb(33, 36, 40)" }}
+          >
+            <h2 className="text-3xl font-bold mb-4">Vikash Saini</h2>
+            <p className="text-gray-300 mb-6">
+              MERN Stack Developer skilled in MongoDB, Express.js, React.js &
+              Node.js
+            </p>
+            <p className="mb-2">📞 +91-7878599144</p>
+            <p className="mb-6">✉ vikashbanskhoh@gmail.com</p>
+            <div className="flex space-x-4">
+              {/* Facebook */}
+              <a
+                className="text-white"
+                href="https://www.facebook.com/your-facebook-profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-insta_icons">
+                  <FaFacebookF />
                 </div>
-              </div>
-             </div>
+              </a>
+
+              {/* Instagram */}
+              <a
+                className="text-white"
+                href="https://www.instagram.com/developer__vicky?igsh=aWFweGxtZ3ltcHdp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-insta_icons">
+                  <FaInstagram />
+                </div>
+              </a>
+
+              {/* GitHub */}
+              <a
+                className="text-white"
+                href="https://github.com/VikashSaini78"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-insta_icons">
+                  <FaGithub />
+                </div>
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                className="text-white"
+                href="https://www.linkedin.com/in/vikash-saini-a6448226b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-insta_icons">
+                  <FaLinkedin />
+                </div>
+              </a>
             </div>
-          </Box>  
-        </>
-      );
+          </div>
+
+          {/* Right Contact Form */}
+          <form className="p-8 flex flex-col space-y-4 rounded-tr-2xl md:rounded-br-none">
+            <input
+              className="border p-3 rounded-lg"
+              type="text"
+              placeholder="Your Name"
+            />
+            <input
+              className="border p-3 rounded-lg"
+              type="email"
+              placeholder="Your Email"
+            />
+            <input
+              className="border p-3 rounded-lg"
+              type="text"
+              placeholder="Subject"
+            />
+            <textarea
+              className="border p-3 rounded-lg"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+            <button className="bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Contact;

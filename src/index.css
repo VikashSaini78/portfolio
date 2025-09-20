@@ -59,13 +59,14 @@ code {
   justify-content: center;
   align-items: center;
  }
- .heder_image-my{
-  margin-top: 40px;
-  width: 70%;
-  height: 70vh;
+  .hero-image img {
+    margin-top: 40px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
- }
+  border: 5px solid #333;
+}
 
 
 
@@ -272,12 +273,11 @@ code {
     height: 14vh;
     background-color: rgb(160, 181, 209);
   }
- .heder_image-my{
-  width: 73%;
-  height: 32vh;
-  background-color: aliceblue;
- }
 
+  .hero-image img {
+    width: 300px;
+    height: 300px;
+  }
   /* .skills */
 
   .my_skills{

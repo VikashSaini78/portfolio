@@ -6,11 +6,7 @@ function Header() {
   const typedRef = useRef(null);
   useEffect(() => {
     const options = {
-      strings: [
-        "Engineer.|",
-       "Developer.|",
-       "Programmer.|",
-      ],
+      strings: ["Engineer.|", "Developer.|", "Programmer.|"],
       typedSpeed: 50,
       backSpeed: 70,
       loop: true,
@@ -32,7 +28,6 @@ function Header() {
                     width: "100%",
                     height: "auto",
                     paddingTop: "100px",
-                  
                   }}
                 >
                   <h1 className=" text-white">WELCOME TO MY WORLD</h1>
@@ -55,7 +50,7 @@ function Header() {
                       marginTop: "20px",
                     }}
                   >
-                     I'm a <span ref={typedRef} className="text_co"></span>
+                    I'm a <span ref={typedRef} className="text_co"></span>
                   </Typography>
 
                   <Typography className=" mt-4 text-slate-400">
@@ -81,12 +76,15 @@ function Header() {
                   overflow: "hidden",
                   marginTop: "40px",
                   // marginLeft:"30px"
-                  display:"flex",
-                  justifyContent:"center",
-                  alignItems:"center"
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
-                <img className="heder_image-my" src="./media/vv.jpg" alt="" />
+                <div className="hero-image">
+                  <img src="./media/vv.jpg" alt="profile" />
+                </div>
+                {/* <img className="heder_image-my" src="./media/vv.jpg" alt="" /> */}
               </Box>
             </div>
           </div>

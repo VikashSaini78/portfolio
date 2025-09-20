@@ -7,7 +7,7 @@ function Header() {
   useEffect(() => {
     const options = {
       strings: [
-        "Full Stack Developer.|",
+        "Engineer.|",
        "Developer.|",
        "Programmer.|",
       ],
@@ -86,7 +86,7 @@ function Header() {
                   alignItems:"center"
                 }}
               >
-                <img className="heder_image-my" src="./media/imm.jpg" alt="" />
+                <img className="heder_image-my" src="./media/vv.jpg" alt="" />
               </Box>
             </div>
           </div>

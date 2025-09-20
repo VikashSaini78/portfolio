@@ -131,6 +131,7 @@ function Contact() {
             style={{ backgroundColor: "rgb(33, 36, 40)" }}
           >
             <h2 className="text-3xl font-bold mb-4">Vikash Saini</h2>
+            {/* <h1>MERN Stack Developer</h1> */}
             <p className="text-gray-300 mb-6">
               MERN Stack Developer skilled in MongoDB, Express.js, React.js &
               Node.js
@@ -141,7 +142,7 @@ function Contact() {
               {/* Facebook */}
               <a
                 className="text-white"
-                href="https://www.facebook.com/your-facebook-profile"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

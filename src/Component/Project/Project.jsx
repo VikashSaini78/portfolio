@@ -229,12 +229,12 @@ function Projects() {
 
                   <div className=" flex justify-between items-center">
                     <Typography className="mt-3 text_co">
-                      Todo Application
+                       Zorvic e-commerce
                     </Typography>
                     <div className="gap-2 text-xl flex text-white">
                       <Link
                         className=" text-white"
-                        href="https://github.com/VikashSaini78/Dev-Projects"
+                        href="https://zorvic-852l.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -245,7 +245,7 @@ function Projects() {
 
                       <Link
                         className=" text-white"
-                        href="https://dev-projects-gray.vercel.app/Todo"
+                        href="https://zorvic-852l.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -256,9 +256,9 @@ function Projects() {
                     </div>
                   </div>
                   <Typography className="mt-3 text-slate-100">
-                    TaskMaster is your favorite to-do application for efficient
-                    task management. Designed to have a minimal and
-                    user-friendly interface. !
+                    Zorvic e-commerce stylish, durable, and eco-friendly. Shop
+                    our latest collections with seamless online ordering and
+                    fast delivery !
                   </Typography>
                 </div>
               </div>
